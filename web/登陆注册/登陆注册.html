@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登陆注册</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        
+        
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            width: 400px;
+            height: 700px;
+            background-color: rgba(50,50,50,.5);
+            border: 1px solid white;
+            border-radius: 20px;
+        }
+      .pwd{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 10px;
+      }
+      .box{
+        color: pink;
+      }
+      .denglu{
+        color: brown;
+        width: 100px;
+        height: 30px;
+        border-radius: 30px;
+      }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <div class="box">
+            <h1 class="table">login</h1><br>
+            <span>账号</span>
+            <input type="text" placeholder="请输入账号" ><br><br>
+            <span>密码</span>
+            <input type="password" placeholder="请输入密码">
+            <br><br>
+            <div class="pwd">
+                <input type="submit" value="登录" class="denglu">
+                <input type="submit" value="注册" class="denglu">
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
